@@ -1,0 +1,30 @@
+.row {
+    height: 50px;
+}
+
+.date,
+.hash,
+.amount {
+    margin: 0;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.positiveMovement {
+    font-weight: 500;
+}
+
+.date {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+}
+
+.hash {
+
+}
+
+.amount {
+
+}

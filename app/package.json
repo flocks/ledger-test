@@ -1,0 +1,18 @@
+{
+  "name": "ledger-test-app",
+  "productName": "Ledger Test App",
+  "version": "1.0.0",
+  "description": "Ledger Test for application as frontend developer",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Florent Teissier",
+    "email": "teissierflorent@gmail.com",
+    "url": "https://github.com/flocks"
+  },
+  "scripts": {
+    "postinstall": "npm rebuild --runtime=electron --target=1.6.6 --disturl=https://atom.io/download/atom-shell --build-from-source"
+  },
+  "license": "MIT",
+  "dependencies": {
+  }
+}

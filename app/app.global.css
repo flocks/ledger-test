@@ -1,0 +1,37 @@
+@import "~font-awesome/css/font-awesome.css";
+
+body {
+  position: relative;
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+  color: #00000;
+}
+
+h2 {
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+
+h3 {
+    color: #C3C3C3;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+}
+

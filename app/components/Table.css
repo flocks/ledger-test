@@ -1,0 +1,42 @@
+.container {
+    padding: 20px;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.header {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.balance {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 500;
+}
+
+.balanceLabel {
+    display: block;
+    color: grey;
+}
+
+.goback {
+    color: grey;
+    font-weight: 500;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.thead {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.noresult {
+    margin-top: 150px;
+    text-align: center;
+}
