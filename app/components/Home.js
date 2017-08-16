@@ -5,7 +5,6 @@ import styles from './Home.css';
 
 export default class Home extends Component {
   props: {
-    searchBitcoin: (address: string) => void,
     search: string,
     history: object
   };

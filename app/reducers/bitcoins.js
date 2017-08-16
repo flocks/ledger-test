@@ -19,7 +19,7 @@ const defaultState = {
     search: ''
 };
 
-function computeAmount(addr: string, outputs: array, inputs: array, fees: number) {
+function computeAmount(addr: string, outputs: array, inputs: array) {
     let sumOutputs = _.reduce(outputs, (sum, o) => {
         if (o.address === addr) {
             return sum + o.value;
@@ -53,7 +53,7 @@ export default function bitcoins(state: bitcoinsStateType = defaultState, action
           let line = {
               hash: transaction.hash,
               date: transaction.received_at,
-              movement: computeAmount(action.addr, transaction.outputs, transaction.inputs, transaction.fees)
+              movement: computeAmount(action.addr, transaction.outputs, transaction.inputs)
           };
 
           transactions.push(line);
